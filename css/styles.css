@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #1f2937;
+}
+header #logo {
+  width: 10%;
+}
+header #nav {
+  display: flex;
+  justify-content: space-between;
+}
+header ol {
+  display: flex;
+  list-style-type: none;
+  gap: 80px;
+}
+a {
+  color: wheat;
+  font-size: 35px;
+  font-family: fantasy;
+}
+nav {
+  align-self: flex-start;
+  margin-right: 8%;
+}
