@@ -1,0 +1,161 @@
+/*HEADER*/
+
+html {font-family: system-ui;}
+body {
+  padding:0px;
+  margin:0px;
+}
+#top{
+  background-color: #1f2937;
+}
+header {
+  display:flex;
+  justify-content:space-evenly; 
+  align-items:flex-start;
+  color: #f9faf8;
+  
+}
+header h1 {
+  font-size:24px;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color:#f9faf8
+}
+ul{
+  display:flex; 
+  gap:45px;
+  list-style-type:none;
+}
+ul li {
+  font-size:18px;
+  color: #e5e7eb;
+}
+
+/*FIRST*/
+#first {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:500px;
+  color: #e5e7eb;
+}
+#presentation {
+  padding-left: 60px;
+  width:400px;
+  margin-right:50px;
+}
+#placeholder {
+  width:500px;
+  height:280px;
+  margin-left:50px;
+}
+img {
+  width:500px;
+  height:280px;
+  margin-left:50px;
+}
+h2 {
+  font-size:48px;
+  margin:0px
+}
+
+#sign {
+  color: #e5e7eb;
+  border-radius: 5px;
+  background-color: #3882f6;;
+  padding: 10px 30px 10px 30px;
+  font-weight:bold;
+}
+/*second*/
+#second {
+  height:400px;
+}
+
+.img {
+  height:204px;
+  width:204px;
+  border-radius: 10%;
+  border: 2px blue solid;
+  display:flex;
+  flex-direction: column;
+  
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+#photos {
+  display:flex;
+  justify-content: center;
+  gap:20px
+}
+.subtext {
+  width:190px;
+  flex-grow:0;
+  text-align: center;
+  margin-left:60px;
+}
+/*third*/
+#third {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  height:400px
+}
+#quote {
+  width:500px;
+  font-size: 24px;
+  font-weight:lighter;
+  font-style: italic;
+}
+
+
+#author {
+  font-size:18px;
+  font-weight: bold;
+  margin:0px 0px 100px 350px;
+}
+
+/*fourth*/
+#fourth {
+  height:200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  height:300px;
+}
+
+#blue {
+  width:60%;
+  height:100px;
+  background-color: #3882f6;
+  display:flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+#up {
+  height:50%;
+  align-self: center;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 1px #e5e7eb solid;
+  border-radius: 7px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height:35px;
+}
+footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937; 
+  color: #e5e7eb;
+}
